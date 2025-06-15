@@ -8,7 +8,7 @@
 - M5Stack 主機
 - 雙按鈕擴充模組（DUAL_BUTTON）
 - 3Ｄ 列印工件（本人創作，請勿販賣）
-  [查看專案內容](./ＵiFlow_CatchCoinsGame/3D_OBJ)
+  [3D 模型](./ＵiFlow_CatchCoinsGame/3D_OBJ/)
 
 ---
 ## 遊戲邏輯解析：
