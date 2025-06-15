@@ -60,7 +60,7 @@ for count in range(10):
     # left
     while not my_1X == 8:
       my_1X = my_1X - 3
-      lcd.circle(my_1X, 45, 10, fillcolor=)
+      lcd.circle(my_1X, 45, 10, fillcolor=0xffffff)
       wait_ms(1)
       lcd.clear()
       rectangle0.show()
