@@ -1,2 +1,2 @@
 # UiFLow_CatchCoinSGame
-uiFlow game
+It's a uiflow somple game test.  #這是UiFlow的遊戲
