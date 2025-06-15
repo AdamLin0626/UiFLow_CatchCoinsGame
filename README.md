@@ -1,17 +1,19 @@
 # UiFLow_簡易接硬幣
----
+<p>
+	<img align ="left" src="FinishPicFront.JPG" alt="正面圖" wight="33%">
+	<img align ="center" src="FinishPicSide.JPG" alt="側面圖" wight="33%">
+	<img align ="right" src="SeparateMode.JPG" alt="分解圖" wight="33%"> <br>
+	<img align ="center" src="All_Object.JPG" alt="正面圖" wight="40%">
+</p><br>  
 
-## 遊戲目標:  
-當畫面上有球從右側滑進來，並進入某一條「軌道」時，玩家需要快速按下對應的按鈕來攔截它。
 ---
-## 使用元件：
+### 使用元件：
 - M5Stack 主機
 - 雙按鈕擴充模組（DUAL_BUTTON）
 - 3Ｄ 列印工件（本人創作，請勿販賣）
   [3D 模型](./3D_OBJ/)
 
 ---
-## 遊戲邏輯解析：
 ### 初始化：
 
 ```python
@@ -21,10 +23,10 @@ label0 = M5TextBox(83, 70, "Score:00", ...)  # 顯示分數
 ---
 
 ### 控制邏輯：  
-玩家可以操作雙按鈕：
-	•	Blue 按鈕 對應往左邊（LineY = -1）
-	•	Red  按鈕 對應往右邊（LineY = 1）
-	•	預設狀態 LineY = 0 對應中間軌道
+玩家可以操作雙按鈕：  
+	• Blue 按鈕 對應往左邊（LineY = -1）  
+	• Red  按鈕 對應往右邊（LineY = 1）  
+	• 預設狀態 LineY = 0 對應中間軌道  
 ```
 def btnBlue0_wasPressed(): LineY = -1
 def btnBlue0_wasReleased(): LineY = 0
