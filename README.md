@@ -1,10 +1,12 @@
-# UiFLow_簡易接硬幣
+# UiFLow_簡易接硬幣  
+
 <p>
-	<img align ="left" src="FinishPicFront.JPG" alt="正面圖" wight="33%">
-	<img align ="center" src="FinishPicSide.JPG" alt="側面圖" wight="33%">
-	<img align ="right" src="SeparateMode.JPG" alt="分解圖" wight="33%"> <br>
-	<img align ="center" src="All_Object.JPG" alt="正面圖" wight="40%">
-</p><br>  
+  <img align="left" src="FinishPicFront.JPG" alt="正面圖" width="33%">
+  <img align="center" src="FinishPicSide.JPG" alt="側面圖" width="33%">
+  <img align="right" src="SeparateMode.JPG" alt="分解圖" width="33%">
+  <img align="center" src="All_Object.JPG" alt="正面圖" width="40%">
+</p>
+
 
 ---
 ### 使用元件：
